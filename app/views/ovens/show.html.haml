@@ -4,8 +4,9 @@
   Cookie in oven:
   - if @oven.cookie
     1 cookie with #{@oven.cookie.fillings.length == 0 ? "no fillings" : @oven.cookie.fillings}
+    #{@oven.cookie.cooking_time}
     - if @oven.cookie.ready?
-      (Your Cookie is Ready)
+      -# (Your Cookie is Ready)
       = button_to "Retrieve Cookie", empty_oven_path, class: 'button tiny'
   - else
     None
