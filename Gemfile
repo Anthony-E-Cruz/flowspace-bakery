@@ -8,8 +8,7 @@ end
 
 gem 'rails', '~> 5.1.0'
 
-#Byebug for debugging
-gem 'byebug', '~> 9.0', '>= 9.0.6'
+gem 'byebug', '~> 9.0', '>= 9.0.5'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

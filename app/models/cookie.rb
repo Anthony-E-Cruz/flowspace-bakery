@@ -7,7 +7,7 @@ class Cookie < ActiveRecord::Base
     if(self.completion_time >= Time.now) 
       return false
     end
-    true
+    return true
   end
 
   def cooking_time
